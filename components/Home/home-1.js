@@ -73,7 +73,7 @@ const Home = () => {
                                                 <h2 className={HomeStyle.title__9s087}>WEB APPLICATION</h2>
                                                 <p className={HomeStyle.dec__9d077_8sk}>
                                                     Both the design and ease of use are 4. Nothing superfluous.
-                                                    I haven't looked at it all yet, but I already realize that I like it.
+                                                    I havent looked at it all yet, but I already realize that I like it.
                                                 </p>
                                             </CardBody>
                                             <Divider />
