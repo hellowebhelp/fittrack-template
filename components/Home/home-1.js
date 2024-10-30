@@ -3,8 +3,6 @@
  */
 
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
 import HomeStyle from '../Home/styles.module.css';
 import { Button } from "@nextui-org/react";
 import { Avatar, AvatarGroup } from "@nextui-org/react";
@@ -14,7 +12,7 @@ import { AiFillGoogleCircle } from "react-icons/ai";
 import { AiFillApple } from "react-icons/ai";
 import Image_1 from '../Home/image-1.webp';
 import { CircularProgress } from "@nextui-org/react";
-import { Card, CardHeader, CardBody, CardFooter, Divider, Link } from "@nextui-org/react";
+import { Card, CardHeader, CardBody, CardFooter, Divider } from "@nextui-org/react";
 import { Progress } from "@nextui-org/react";
 
 
