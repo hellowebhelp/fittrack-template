@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+.custom_container {
+  max-width: 95%;
+  margin: auto;
+}
+
+@media (min-width: 1300px) {
+  .custom_container {
+    max-width: 1300px;
+    margin: auto;
+  }
+}
+
+body {
+  background-color: #0a0a0a;
+  /* max-height: 105vh; */
+  font-family: "Jost", serif;
+}
+
+
+/* responsive */
+@media (max-width: 768px) {
+
+
+
+}

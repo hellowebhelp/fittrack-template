@@ -1,0 +1,68 @@
+/* 
+* Header css
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.header__ground__6732 {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(230, 230, 230, 0.031);
+}
+
+.__grid__08s_kspo {
+    display: grid;
+    grid-gap: 6px;
+    grid-template-columns: auto auto auto;
+}
+
+.logo__87609 {
+    font-size: 26px;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.menu__items__098 {
+    display: flex;
+}
+
+.menu__items__098 a {
+    margin-right: 14px;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 600;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #5e5e5e0f;
+    border-radius: 10px;
+
+}
+
+.right_side__098 {
+    display: flex;
+    justify-content: right;
+}
+
+.active__86__osiap {
+    background-color: #d6d6b1;
+    color: #000 !important;
+}
+
+/* header end */
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .menu__items__0sa87 {
+        display: none;
+    }
+    .__grid__08s_kspo {
+        grid-template-columns: auto 70%;
+    }
+
+}
