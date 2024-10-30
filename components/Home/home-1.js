@@ -5,7 +5,6 @@
 import React from "react";
 import HomeStyle from '../Home/styles.module.css';
 import { Button } from "@nextui-org/react";
-import { CameraIcon } from '../Home/CameraIcon';
 import { Avatar, AvatarGroup } from "@nextui-org/react";
 import { CgArrowTopRight } from "react-icons/cg";
 import { BiCheckCircle } from "react-icons/bi";
